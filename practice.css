@@ -38,11 +38,12 @@ body {
   }
  .img{
     height: 200px;
-    border-radius: 6rem;
+    border-radius: 1rem;
  }
   .top-cloud
   {
     height: 120px;
+   
     /* align-self:left; */
   }
   a {
@@ -94,8 +95,9 @@ body {
   
   .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 40px;
+    position: absolute;
+    left: 4%;
+    top: 50%;
   }
   
   .bottom-cloud {
@@ -126,7 +128,7 @@ margin-left: 30px;
        border-radius: 1rem;
     
   }
-  
+
   .btn {
     background: #334C8A;
     background-image: -webkit-linear-gradient(top,#334C8A,#334C8A);
@@ -139,7 +141,7 @@ margin-left: 30px;
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
